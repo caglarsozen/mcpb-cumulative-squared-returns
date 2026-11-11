@@ -1,0 +1,29 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Additional benchmark comparisons at $H=30$.}
+\label{tab:archival}
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{2}{c}{Expanding estimation} & \multicolumn{2}{c}{Rolling estimation} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Benchmark & \shortstack{MCPB\\lower MSE} & \shortstack{Median\\PRE (\%)} & \shortstack{MCPB\\lower MSE} & \shortstack{Median\\PRE (\%)} \\
+\midrule
+Ridge & 13/15 & +67.67 & 11/15 & +16.87 \\
+Direct HAR--OLS & 13/15 & +67.85 & 10/15 & +9.98 \\
+Persistence & 15/15 & +90.50 & 15/15 & +90.48 \\
+22-observation mean & 14/15 & +27.87 & 14/15 & +24.62 \\
+Direct random forest & 14/15 & +86.94 & 13/15 & +37.32 \\
+Isotonic random forest & 14/15 & +86.85 & 13/15 & +37.30 \\
+Positive iterative HAR & 13/15 & +63.36 & 10/15 & +14.23 \\
+GARCH-$t$ & 12/15 & +34.27 & 11/15 & +13.50 \\
+Global stack & 12/15 & +19.51 & 12/15 & +12.30 \\
+Increment stack & 12/15 & +19.50 & 11/15 & +14.13 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} PRE columns are asset-level medians. The ridge row uses the main MCPB experiment. The other rows use aggregate results from a separate experiment with the same price inputs and evaluation origins. Complete fitted configurations and individual losses for those additional models are not supplied. These are descriptive comparisons without new paired inference.
+\end{minipage}
+\end{table}

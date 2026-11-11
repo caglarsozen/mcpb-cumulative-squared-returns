@@ -1,0 +1,6 @@
+{
+  "rows": 36752,
+  "original_sha256": "f883c8f2127990cd532422923a1f9ace2004c2a9abc91ca1c31e4592c2d9cf52",
+  "parts": 31,
+  "reassembly": "Keep the header from part-001.csv and concatenate all data rows in filename order. All original row bytes are preserved."
+}

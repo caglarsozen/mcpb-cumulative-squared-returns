@@ -1,0 +1,17 @@
+variant,method,wins_n15,median_PRE_pct
+Archived default,MTF_FR,9,6.71802883656
+Sample standard deviation,MTF_FR__ScaleSD,9,5.17549319097
+Rousseeuw--Croux $Q_n$,MTF_FR__ScaleQn,9,6.71802883656
+Common-scale (no normalization),MTF_FR__NoScaling,9,1.23551498407
+Uniform horizon weights,MTF_FR__UniformHorizon,8,0.962407061126
+Inverse-horizon weights,MTF_FR__InverseHorizon,8,14.7461025029
+Equal TV weights,MTF_FR__EqualTV,9,6.2556479812
+Adaptive exponent 0.5,MTF_FR__AdaptiveBeta05,9,6.75648989764
+Offset $0.001$,MTF_FR__Epsilon001,9,6.79500591925
+Offset $0.1$,MTF_FR__Epsilon01,9,6.81438207382
+Segment penalty $0$,MTF_FR__Eta0,9,6.80448513099
+Segment penalty $0.01$,MTF_FR__Eta001,9,6.79392829858
+Segment penalty $0.03$,MTF_FR__Eta003,9,6.22100984729
+Segment penalty $0.05$,MTF_FR__Eta005,9,6.23933024448
+Huber parameter 1,MTF_FR__Huber1,9,6.71802868643
+Huber parameter 2,MTF_FR__Huber2,9,6.71802868643

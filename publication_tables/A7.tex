@@ -1,0 +1,25 @@
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Near-term and complete-path MSE comparisons within $H=30$.}
+\label{tab:short_horizons}
+\begin{tabular}{llrrrr}
+\toprule
+ & & \multicolumn{2}{c}{MCPB vs. EWMA} & \multicolumn{2}{c}{MCPB vs. Ridge--EWMA} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Window & Scored coordinates & \shortstack{Lower\\MSE} & \shortstack{Median\\PRE (\%)} & \shortstack{Lower\\MSE} & \shortstack{Median\\PRE (\%)} \\
+\midrule
+Expanding & First observation & 6/15 & -0.85 & 5/15 & -1.31 \\
+Expanding & First five & 6/15 & -1.73 & 6/15 & -2.84 \\
+Expanding & Complete path & 12/15 & +16.11 & 11/15 & +15.60 \\
+Rolling & First observation & 7/15 & -0.02 & 5/15 & -0.30 \\
+Rolling & First five & 10/15 & +1.19 & 8/15 & +0.25 \\
+Rolling & Complete path & 14/15 & +13.60 & 11/15 & +9.15 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} The first-observation loss scores $h=1$, the first-five loss averages $h=1,\ldots,5$, and the complete-path loss averages $h=1,\ldots,30$. These are restrictions of the same fitted $H=30$ forecasts, not separately fitted short-horizon methods. PRE columns show medians across assets. Counts denote assets with lower MCPB loss than the stated comparator. Counts and percentages are descriptive, without additional primary significance claims.
+\end{minipage}
+\end{table}

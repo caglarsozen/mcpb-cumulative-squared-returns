@@ -1,0 +1,25 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Comparative accuracy at $H=30$.}
+\label{tab:summary}
+\begin{tabular}{lrrrr}
+\toprule
+Control & \shortstack{Expanding\\lower MSE} & \shortstack{Expanding\\median PRE (\%)} & \shortstack{Rolling\\lower MSE} & \shortstack{Rolling\\median PRE (\%)} \\
+\midrule
+Ridge & 13/15 & +67.67 & 11/15 & +16.87 \\
+EWMA & 12/15 & +16.11 & 14/15 & +13.60 \\
+Ridge--EWMA & 11/15 & +15.60 & 11/15 & +9.15 \\
+Daily 40 & 11/15 & +15.28 & 12/15 & +8.43 \\
+Daily $H$ & 11/15 & +14.83 & 11/15 & +8.72 \\
+Maturity simplex & 11/15 & +14.73 & 11/15 & +9.02 \\
+Calibrated EWMA & 13/15 & +19.55 & 14/15 & +14.82 \\
+Full-path positive & 8/15 & +0.07 & 4/15 & -0.40 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} Counts denote assets with lower MCPB path MSE than the listed control, without a significance requirement. Medians are across the 15 asset-level PRE values, rather than a ratio of pooled panel losses. In the primary comparison family only the expanding XLU--EWMA contrast is favorable and significant after Holm correction. No favorable Ridge--EWMA contrast and no contrast in the separate 60-test component family survives adjustment at 5\%. Daily $H$ is descriptive and lies outside that component family.
+\end{minipage}
+\end{table}

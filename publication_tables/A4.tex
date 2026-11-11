@@ -1,0 +1,26 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{TV--persistence experiment: component comparisons.}
+\label{tab:legacy_ablation}
+\begin{tabular}{lrrr}
+\toprule
+Variant & Lower MSE & \shortstack{Median\\PRE (\%)} & \shortstack{Fused adjacencies\\(asset median)} \\
+\midrule
+Ridge & 0/15 & +0.00 & 0.34 \\
+Nonnegative increments & 0/15 & +0.00 & 0.34 \\
+TV increments & 1/15 & -0.09 & 16.47 \\
+Nonnegative TV & 1/15 & -0.09 & 16.47 \\
+Ridge + persistence & 9/15 & +6.80 & 0.64 \\
+Nonnegative + persistence & 9/15 & +6.80 & 0.64 \\
+TV + persistence & 9/15 & +6.72 & 21.56 \\
+Full TV + persistence & 9/15 & +6.72 & 21.56 \\
+Persistence & 4/15 & -197.57 & 29.00 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} Results use $H=30$, expanding estimation, and the TV experiment's own ridge reference. They are separate from the MCPB component comparisons. The lower-MSE count is out of 15 assets. The last column takes the median across assets of the mean number of fused neighboring increments, with a maximum of 29. Tuning settings remain those of the separate experiment.
+\end{minipage}
+\end{table}

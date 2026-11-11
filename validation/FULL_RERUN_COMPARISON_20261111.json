@@ -1,0 +1,311 @@
+{
+  "date": "2026-11-11",
+  "passed": 63,
+  "total": 63,
+  "checks": {
+    "SUMMARY_accuracy.csv_keys": true,
+    "SUMMARY_accuracy.csv:n": true,
+    "SUMMARY_accuracy.csv:PathMSE": true,
+    "SUMMARY_accuracy.csv:PathRMSE": true,
+    "SUMMARY_accuracy.csv:H1_MSE": true,
+    "SUMMARY_accuracy.csv:H1_5_MSE": true,
+    "SUMMARY_accuracy.csv:PathQLIKE": true,
+    "SUMMARY_accuracy.csv:PRE_vs_EWMA": true,
+    "SUMMARY_accuracy.csv:PRE_vs_RidgeEWMA": true,
+    "SUMMARY_accuracy.csv:path_violation_rate": true,
+    "SUMMARY_inference.csv_keys": true,
+    "SUMMARY_inference.csv:n": true,
+    "SUMMARY_inference.csv:B": true,
+    "SUMMARY_inference.csv:loss_improvement": true,
+    "SUMMARY_inference.csv:CI_low": true,
+    "SUMMARY_inference.csv:CI_high": true,
+    "SUMMARY_inference.csv:PRE": true,
+    "SUMMARY_inference.csv:PRE_low": true,
+    "SUMMARY_inference.csv:PRE_high": true,
+    "SUMMARY_inference.csv:bootstrap_p": true,
+    "SUMMARY_inference.csv:p_holm_primary": true,
+    "SUMMARY_inference.csv:p_holm_component": true,
+    "SUMMARY_choices.csv_keys": true,
+    "SUMMARY_choices.csv:native_fit_cut": true,
+    "SUMMARY_choices.csv:newest_partial_origin": true,
+    "SUMMARY_choices.csv:newest_fullH_origin": true,
+    "SUMMARY_choices.csv:newest_full40_origin": true,
+    "SUMMARY_choices.csv:max_partial_target": true,
+    "SUMMARY_choices.csv:min_n_partial": true,
+    "SUMMARY_choices.csv:max_n_partial": true,
+    "SUMMARY_choices.csv:q11": true,
+    "SUMMARY_choices.csv:q12": true,
+    "SUMMARY_choices.csv:q22": true,
+    "SUMMARY_choices.csv:b1": true,
+    "SUMMARY_choices.csv:b2": true,
+    "SUMMARY_choices.csv:lambda": true,
+    "SUMMARY_choices.csv:betaR_RidgeEWMA": true,
+    "SUMMARY_choices.csv:betaE_RidgeEWMA": true,
+    "SUMMARY_choices.csv:betaR_DailyMix40": true,
+    "SUMMARY_choices.csv:betaE_DailyMix40": true,
+    "SUMMARY_choices.csv:betaR_DailyMixH": true,
+    "SUMMARY_choices.csv:betaE_DailyMixH": true,
+    "SUMMARY_choices.csv:betaR_MaturityMix": true,
+    "SUMMARY_choices.csv:betaE_MaturityMix": true,
+    "SUMMARY_choices.csv:betaR_CalEWMA": true,
+    "SUMMARY_choices.csv:betaE_CalEWMA": true,
+    "SUMMARY_choices.csv:betaR_NNLS_FullH": true,
+    "SUMMARY_choices.csv:betaE_NNLS_FullH": true,
+    "SUMMARY_choices.csv:betaR_MCPB": true,
+    "SUMMARY_choices.csv:betaE_MCPB": true,
+    "SUMMARY_choices.csv:betaR_MCPB_kappa1e6": true,
+    "SUMMARY_choices.csv:betaE_MCPB_kappa1e6": true,
+    "SUMMARY_choices.csv:betaR_MCPB_kappa1e2": true,
+    "SUMMARY_choices.csv:betaE_MCPB_kappa1e2": true,
+    "Native_Timing.csv_keys": true,
+    "Native_Timing.csv:last_training_target": true,
+    "Native_Timing.csv:n_train": true,
+    "Native_Timing.csv:ridge_lambda": true,
+    "all_2400_parent_parity_checks": true,
+    "all_14_R_functional_checks": true,
+    "120_fresh_fitted_arrays": true,
+    "120_origin_loss_files": true,
+    "unchanged_core": true
+  },
+  "comparisons": {
+    "SUMMARY_accuracy.csv": {
+      "rows": 1440,
+      "columns": {
+        "n": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "PathMSE": {
+          "max_absolute_difference": 9.893344823930228e-19,
+          "passed": true
+        },
+        "PathRMSE": {
+          "max_absolute_difference": 2.0816681711721685e-17,
+          "passed": true
+        },
+        "H1_MSE": {
+          "max_absolute_difference": 2.0328790734103208e-20,
+          "passed": true
+        },
+        "H1_5_MSE": {
+          "max_absolute_difference": 7.115076756936123e-20,
+          "passed": true
+        },
+        "PathQLIKE": {
+          "max_absolute_difference": 1.0658141036401503e-14,
+          "passed": true
+        },
+        "PRE_vs_EWMA": {
+          "max_absolute_difference": 1.0231815394945443e-12,
+          "passed": true
+        },
+        "PRE_vs_RidgeEWMA": {
+          "max_absolute_difference": 9.947598300641403e-13,
+          "passed": true
+        },
+        "path_violation_rate": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        }
+      }
+    },
+    "SUMMARY_inference.csv": {
+      "rows": 6480,
+      "columns": {
+        "n": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "B": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "loss_improvement": {
+          "max_absolute_difference": 2.706168622523819e-15,
+          "passed": true
+        },
+        "CI_low": {
+          "max_absolute_difference": 1.3003487175922146e-14,
+          "passed": true
+        },
+        "CI_high": {
+          "max_absolute_difference": 1.4502288259166107e-14,
+          "passed": true
+        },
+        "PRE": {
+          "max_absolute_difference": 2.402522625288839e-13,
+          "passed": true
+        },
+        "PRE_low": {
+          "max_absolute_difference": 1.0089706847793423e-12,
+          "passed": true
+        },
+        "PRE_high": {
+          "max_absolute_difference": 1.2008172234345693e-12,
+          "passed": true
+        },
+        "bootstrap_p": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "p_holm_primary": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "p_holm_component": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        }
+      }
+    },
+    "SUMMARY_choices.csv": {
+      "rows": 36752,
+      "columns": {
+        "native_fit_cut": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "newest_partial_origin": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "newest_fullH_origin": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "newest_full40_origin": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "max_partial_target": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "min_n_partial": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "max_n_partial": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "q11": {
+          "max_absolute_difference": 9.974659986866641e-18,
+          "passed": true
+        },
+        "q12": {
+          "max_absolute_difference": 1.0299920638612292e-18,
+          "passed": true
+        },
+        "q22": {
+          "max_absolute_difference": 1.0299920638612292e-18,
+          "passed": true
+        },
+        "b1": {
+          "max_absolute_difference": 1.0842021724855044e-18,
+          "passed": true
+        },
+        "b2": {
+          "max_absolute_difference": 1.0299920638612292e-18,
+          "passed": true
+        },
+        "lambda": {
+          "max_absolute_difference": 1.0587911840678754e-22,
+          "passed": true
+        },
+        "betaR_RidgeEWMA": {
+          "max_absolute_difference": 5.995204332975845e-15,
+          "passed": true
+        },
+        "betaE_RidgeEWMA": {
+          "max_absolute_difference": 5.995204332975845e-15,
+          "passed": true
+        },
+        "betaR_DailyMix40": {
+          "max_absolute_difference": 7.993605777301127e-15,
+          "passed": true
+        },
+        "betaE_DailyMix40": {
+          "max_absolute_difference": 8.021361352916756e-15,
+          "passed": true
+        },
+        "betaR_DailyMixH": {
+          "max_absolute_difference": 7.993605777301127e-15,
+          "passed": true
+        },
+        "betaE_DailyMixH": {
+          "max_absolute_difference": 8.021361352916756e-15,
+          "passed": true
+        },
+        "betaR_MaturityMix": {
+          "max_absolute_difference": 8.992806499463768e-15,
+          "passed": true
+        },
+        "betaE_MaturityMix": {
+          "max_absolute_difference": 8.992806499463768e-15,
+          "passed": true
+        },
+        "betaR_CalEWMA": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "betaE_CalEWMA": {
+          "max_absolute_difference": 1.021405182655144e-14,
+          "passed": true
+        },
+        "betaR_NNLS_FullH": {
+          "max_absolute_difference": 5.1958437552457326e-14,
+          "passed": true
+        },
+        "betaE_NNLS_FullH": {
+          "max_absolute_difference": 7.799316747991725e-14,
+          "passed": true
+        },
+        "betaR_MCPB": {
+          "max_absolute_difference": 3.8968828164342995e-14,
+          "passed": true
+        },
+        "betaE_MCPB": {
+          "max_absolute_difference": 5.700995231450179e-14,
+          "passed": true
+        },
+        "betaR_MCPB_kappa1e6": {
+          "max_absolute_difference": 4.0023540037736893e-14,
+          "passed": true
+        },
+        "betaE_MCPB_kappa1e6": {
+          "max_absolute_difference": 5.800915303666443e-14,
+          "passed": true
+        },
+        "betaR_MCPB_kappa1e2": {
+          "max_absolute_difference": 2.3037127760971998e-14,
+          "passed": true
+        },
+        "betaE_MCPB_kappa1e2": {
+          "max_absolute_difference": 3.397282455352979e-14,
+          "passed": true
+        }
+      }
+    },
+    "Native_Timing.csv": {
+      "rows": 870,
+      "columns": {
+        "last_training_target": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "n_train": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        },
+        "ridge_lambda": {
+          "max_absolute_difference": 0.0,
+          "passed": true
+        }
+      }
+    }
+  },
+  "scope": "Fresh fitting and ridge selection for all 120 MCPB designs, daily calibration, and 4999 moving-block bootstrap draws per block setting. Additional parent benchmarks and historical TV estimators are not refitted.",
+  "bootstrap_refits_models_inside_draws": false,
+  "untouched_new_test_period": false
+}

@@ -1,0 +1,20 @@
+{
+  "accuracy_rows_1440": true,
+  "inference_rows_6480": true,
+  "choices_rows_36752": true,
+  "fixed_universe_all_15": true,
+  "complete_120_cases": true,
+  "unique_accuracy_keys": true,
+  "primary_30": true,
+  "effective_crypto_prices_2192": true,
+  "all_effective_prices_end_2024": true,
+  "expanding_ridge_pav_equal_H30": true,
+  "rw_expanding_11_wins": true,
+  "rw_rolling_11_wins": true,
+  "rw_expanding_median_15_60": true,
+  "rw_rolling_median_9_15": true,
+  "adverse_gld_slv_retained": true,
+  "all_15_input_hashes_match": true,
+  "primary_Holm_matches": true,
+  "component_Holm_matches": true
+}

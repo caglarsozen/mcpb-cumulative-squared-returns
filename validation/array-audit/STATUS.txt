@@ -1,0 +1,7 @@
+PASS
+Cases: 120
+Method-case comparisons: 1440
+Origin-horizon targets: 918800
+Forecast values: 11025600
+Independent recomputation of targets, projection, coefficient combinations, four losses, and shape diagnostics.
+This audit reads fresh fitted arrays; it is not an additional model fit or an unseen-data evaluation.

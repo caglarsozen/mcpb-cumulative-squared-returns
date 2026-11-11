@@ -41,10 +41,20 @@ vignettes/*.pdf
 .env
 
 # pkgdown site
-docs/
 
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Generated experiment and publication outputs
+outputs/
+results/
+code/JOEF_MCPB_support_*/
+code/JOEF_MCPB_RESULTS_*/
+__pycache__/
+.venv/
+*.aux
+*.log
+*.out

@@ -1,0 +1,35 @@
+citation_key,doi,manuscript_title,status,primary_metadata_title,issued_year,volume,issue,pages
+Andersen2003,10.1111/1468-0262.00418,Modeling and forecasting realized volatility.,VERIFIED_METADATA,Modeling and Forecasting Realized Volatility,2003,71,2,579-625
+BNS2002,10.1111/1467-9868.00336,Econometric analysis of realized volatility and its use in estimating   stochastic volatility models.,VERIFIED_METADATA,Econometric Analysis of Realized Volatility and its Use in Estimating Stochastic Volatility Models,2002,64,2,253-280
+BatesGranger1969,10.1057/jors.1969.103,The combination of forecasts.,VERIFIED_METADATA,The Combination of Forecasts,1969,20,4,451-468
+Bollerslev1986,10.1016/0304-4076(86)90063-1,Generalized autoregressive conditional heteroskedasticity.,VERIFIED_METADATA,Generalized autoregressive conditional heteroskedasticity,1986,31,3,307-327
+BoydVandenberghe2004,10.1017/CBO9780511804441,\emph{Convex Optimization}.,VERIFIED_METADATA,Convex Optimization,2004,,,
+Breiman1996,10.1023/A:1018046112532,Stacked regressions.,VERIFIED_METADATA,Stacked Regressions,1996,24,1,49-64
+CawleyTalbot2010,,On over-fitting in model selection and subsequent selection bias in   performance evaluation.,NO_DOI_CITED,,,,,
+Chernozhukov2009,10.1093/biomet/asp030,Improving point and interval estimators of monotone functions by   rearrangement.,VERIFIED_METADATA,Improving point and interval estimators of monotone functions by rearrangement,2009,96,3,559-575
+Corsi2009,10.1093/jjfinec/nbp001,A simple approximate long-memory model of realized volatility.,VERIFIED_METADATA,A Simple Approximate Long-Memory Model of Realized Volatility,2008,7,2,174-196
+deLeeuw2009,10.18637/jss.v032.i05,Isotone optimization in {R}: Pool-adjacent-violators algorithm   ({PAVA}) and active set methods.,VERIFIED_METADATA,"Isotone Optimization in
+                    <i>R</i>
+                    : Pool-Adjacent-Violators Algorithm (PAVA) and Active Set Methods",2009,32,5,
+DieboldMariano1995,10.1080/07350015.1995.10524599,Comparing predictive accuracy.,VERIFIED_METADATA,Comparing Predictive Accuracy,1995,13,3,253-263
+Engle1982,10.2307/1912773,Autoregressive conditional heteroscedasticity with estimates of the   variance of {United Kingdom} inflation.,VERIFIED_METADATA,Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation,1982,50,4,987
+GiacominiWhite2006,10.1111/j.1468-0262.2006.00718.x,Tests of conditional predictive ability.,VERIFIED_METADATA,Tests of Conditional Predictive Ability,2006,74,6,1545-1578
+GrangerRamanathan1984,10.1002/for.3980030207,Improved methods of combining forecasts.,VERIFIED_METADATA,Improved methods of combining forecasts,1984,3,2,197-204
+Hansen2005,10.1198/073500105000000063,A test for superior predictive ability.,VERIFIED_METADATA,A Test for Superior Predictive Ability,2005,23,4,365-380
+Hansen2012,10.1002/jae.1234,Realized {GARCH}: A joint model for returns and realized measures of   volatility.,VERIFIED_METADATA,Realized GARCH: a joint model for returns and realized measures of volatility,2011,27,6,877-906
+HoerlKennard1970,10.1080/00401706.1970.10488634,Ridge regression: Biased estimation for nonorthogonal problems.,VERIFIED_METADATA,Ridge Regression: Biased Estimation for Nonorthogonal Problems,1970,12,1,55-67
+Holm1979,,A simple sequentially rejective multiple test procedure.,NO_DOI_CITED,,,,,
+HyndmanShang2009,10.1016/j.jkss.2009.06.002,Forecasting functional time series.,VERIFIED_METADATA,Forecasting functional time series,2009,38,3,199-211
+Joulani2013,,Online learning under delayed feedback.,NO_DOI_CITED,,,,,
+RiskMetrics1996,,\emph{{RiskMetrics}---Technical Document}.,NO_DOI_CITED,,,,,
+Kunsch1989,10.1214/aos/1176347265,The jackknife and the bootstrap for general stationary observations.,VERIFIED_METADATA,The Jackknife and the Bootstrap for General Stationary Observations,1989,17,3,1217-1241
+LawsonHanson1995,10.1137/1.9781611971217,"\emph{Solving Least Squares Problems}, volume~15 of \emph{Classics in   Applied Mathematics}.",VERIFIED_METADATA,Solving Least Squares Problems,1995,,,
+Patton2011,10.1016/j.jeconom.2010.03.034,Volatility forecast comparison using imperfect volatility proxies.,VERIFIED_METADATA,Volatility forecast comparison using imperfect volatility proxies,2011,160,1,246-256
+RousseeuwCroux1993,10.1080/01621459.1993.10476408,Alternatives to the median absolute deviation.,VERIFIED_METADATA,Alternatives to the Median Absolute Deviation,1993,88,424,1273-1283
+ShephardSheppard2010,10.1002/jae.1158,Realising the future: Forecasting with high-frequency-based volatility (HEAVY) models.,VERIFIED_METADATA,Realising the future: forecasting with high‐frequency‐based volatility (HEAVY) models,2010,25,2,197-231
+StockWatson2004,10.1002/for.928,Combination forecasts of output growth in a seven-country data set.,VERIFIED_METADATA,Combination forecasts of output growth in a seven‐country data set,2004,23,6,405-430
+Timmermann2006,10.1016/S1574-0706(05)01004-9,Forecast combinations.,VERIFIED_METADATA,Chapter 4 Forecast Combinations,2006,,,135-196
+Wang2023,10.1016/j.ijforecast.2022.11.005,Forecast combinations: An over 50-year review.,VERIFIED_METADATA,Forecast combinations: An over 50-year review,2023,39,4,1518-1547
+White2000,10.1111/1468-0262.00152,A reality check for data snooping.,VERIFIED_METADATA,A Reality Check for Data Snooping,2000,68,5,1097-1126
+Wolpert1992,10.1016/S0893-6080(05)80023-1,Stacked generalization.,VERIFIED_METADATA,Stacked generalization,1992,5,2,241-259
+YahooFinance,,Historical daily price data.,NO_DOI_CITED,,,,,

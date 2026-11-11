@@ -1,0 +1,32 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Effective samples and evaluation sizes.}
+\label{tab:sample}
+\begin{tabular}{llrrrr}
+\toprule
+Asset & Exposure & Prices & Returns & \shortstack{Return\\dispersion (\%)} & Test $N$ \\
+\midrule
+BTC & Crypto & 2192 & 2191 & 3.43 & 425 \\
+ETH & Crypto & 2192 & 2191 & 4.36 & 425 \\
+SPY & US equity & 1510 & 1509 & 1.25 & 288 \\
+GLD & Gold & 1510 & 1509 & 0.94 & 288 \\
+TLT & Treasury & 1510 & 1509 & 1.08 & 288 \\
+QQQ & US equity & 1510 & 1509 & 1.54 & 288 \\
+IWM & US equity & 1510 & 1509 & 1.64 & 288 \\
+EFA & Developed equity & 1510 & 1509 & 1.19 & 288 \\
+EEM & Emerging equity & 1510 & 1509 & 1.35 & 288 \\
+XLF & Financial equity & 1510 & 1509 & 1.57 & 288 \\
+XLE & Energy equity & 1510 & 1509 & 2.16 & 288 \\
+XLU & Utility equity & 1510 & 1509 & 1.37 & 288 \\
+SLV & Silver & 1510 & 1509 & 1.90 & 288 \\
+LQD & Corporate bond & 1510 & 1509 & 0.65 & 288 \\
+VNQ & Real estate & 1510 & 1509 & 1.52 & 288 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} Prices span 1 January 2019--31 December 2024 for crypto and 2 January 2019--31 December 2024 for ETFs. The crypto test origins are 24 September 2023--21 November 2024; ETF test origins are 13 September 2023--1 November 2024. All four horizons use these same origins within an asset. Return dispersion is the sample standard deviation of daily log returns in percent. A raw crypto quote dated 1 January 2025 is excluded.
+\end{minipage}
+\end{table}

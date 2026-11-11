@@ -1,0 +1,4 @@
+* text=auto
+# Preserve exact archived bytes: these hashes are part of input provenance.
+evidence/** -text
+code/JOEF_MCPB_2024_REPLICATION.R -text

@@ -1,0 +1,24 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Calibration rules for the comparison methods.}
+\label{tab:controls}
+\begin{tabular}{llll}
+\toprule
+Combination & Updates & Available labels & Coefficient constraint \\
+\midrule
+Ridge--EWMA & Monthly & Complete 40-step paths & $\beta_R+\beta_E=1$ \\
+Daily 40 & Daily & Complete 40-step paths & $\beta_R+\beta_E=1$ \\
+Daily $H$ & Daily & Complete $H$-step paths & $\beta_R+\beta_E=1$ \\
+Maturity simplex & Daily & Horizon-specific maturity & $\beta_R+\beta_E=1$ \\
+Calibrated EWMA & Daily & Horizon-specific maturity & $\beta_R=0$ \\
+Full-path positive & Daily & Complete $H$-step paths & No unit-sum restriction \\
+MCPB & Daily & Horizon-specific maturity & No unit-sum restriction \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} All coefficients are nonnegative. The final three rows use an EWMA-centered quadratic penalty. Calibrated EWMA retains the MCPB penalty value with its ridge coefficient fixed at zero; full-path positive regression applies the same penalty rule to its own calibration sample. The monthly base ridge forecasts are identical across these controls.
+\end{minipage}
+\end{table}

@@ -1,0 +1,35 @@
+citation_key,doi,fresh_status,fresh_metadata_title,title_similarity,primary_source_url,verification_note,error
+Andersen2003,10.1111/1468-0262.00418,VERIFIED,Modeling and Forecasting Realized Volatility,1.0,,,
+BNS2002,10.1111/1467-9868.00336,VERIFIED,Econometric Analysis of Realized Volatility and its Use in Estimating Stochastic Volatility Models,1.0,,,
+BatesGranger1969,10.1057/jors.1969.103,VERIFIED_PUBLISHER,,,https://www.tandfonline.com/doi/abs/10.1057/jors.1969.103,"Publisher title, DOI, authors and publication record checked; Crossref request rate-limited. Retain print/issue year.",HTTP Error 429: Too Many Requests
+Bollerslev1986,10.1016/0304-4076(86)90063-1,VERIFIED,Generalized autoregressive conditional heteroskedasticity,1.0,,,
+BoydVandenberghe2004,10.1017/CBO9780511804441,VERIFIED_PUBLISHER,,,https://www.cambridge.org/highereducation/books/convex-optimization/17D2FAA54F641A2F62C7CCD01DFA97C4,"Publisher title, DOI, authors and publication record checked; Crossref request rate-limited. Retain print/issue year.",HTTP Error 429: Too Many Requests
+Breiman1996,10.1023/A:1018046112532,VERIFIED,Stacked Regressions,1.0,,,
+CawleyTalbot2010,,NO_DOI_IN_REFERENCE,,,,,
+Chernozhukov2009,10.1093/biomet/asp030,VERIFIED,Improving point and interval estimators of monotone functions by rearrangement,1.0,,,
+Corsi2009,10.1093/jjfinec/nbp001,VERIFIED,A Simple Approximate Long-Memory Model of Realized Volatility,1.0,,,
+deLeeuw2009,10.18637/jss.v032.i05,VERIFIED,"Isotone Optimization in
+                    <i>R</i>
+                    : Pool-Adjacent-Violators Algorithm (PAVA) and Active Set Methods",1.0,,,
+DieboldMariano1995,10.1080/07350015.1995.10524599,VERIFIED,Comparing Predictive Accuracy,1.0,,,
+Engle1982,10.2307/1912773,VERIFIED,Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation,1.0,,,
+GiacominiWhite2006,10.1111/j.1468-0262.2006.00718.x,VERIFIED,Tests of Conditional Predictive Ability,1.0,,,
+GrangerRamanathan1984,10.1002/for.3980030207,VERIFIED,Improved methods of combining forecasts,1.0,,,
+Hansen2005,10.1198/073500105000000063,VERIFIED,A Test for Superior Predictive Ability,1.0,,,
+Hansen2012,10.1002/jae.1234,VERIFIED,Realized GARCH: a joint model for returns and realized measures of volatility,1.0,,,
+HoerlKennard1970,10.1080/00401706.1970.10488634,VERIFIED,Ridge Regression: Biased Estimation for Nonorthogonal Problems,1.0,,,
+Holm1979,,NO_DOI_IN_REFERENCE,,,,,
+HyndmanShang2009,10.1016/j.jkss.2009.06.002,VERIFIED_PUBLISHER,,,https://www.sciencedirect.com/science/article/pii/S1226319209000398,"Publisher title, DOI, authors and publication record checked; Crossref request rate-limited. Retain print/issue year.",HTTP Error 429: Too Many Requests
+Joulani2013,,NO_DOI_IN_REFERENCE,,,,,
+RiskMetrics1996,,NO_DOI_IN_REFERENCE,,,,,
+Kunsch1989,10.1214/aos/1176347265,VERIFIED,The Jackknife and the Bootstrap for General Stationary Observations,1.0,,,
+LawsonHanson1995,10.1137/1.9781611971217,VERIFIED,Solving Least Squares Problems,1.0,,,
+Patton2011,10.1016/j.jeconom.2010.03.034,VERIFIED,Volatility forecast comparison using imperfect volatility proxies,1.0,,,
+RousseeuwCroux1993,10.1080/01621459.1993.10476408,VERIFIED,Alternatives to the Median Absolute Deviation,1.0,,,
+ShephardSheppard2010,10.1002/jae.1158,VERIFIED,Realising the future: forecasting with high‐frequency‐based volatility (HEAVY) models,1.0,,,
+StockWatson2004,10.1002/for.928,VERIFIED_PUBLISHER,,,https://onlinelibrary.wiley.com/doi/10.1002/for.928,"Publisher title, DOI, authors and publication record checked; Crossref request rate-limited. Retain print/issue year.",HTTP Error 429: Too Many Requests
+Timmermann2006,10.1016/S1574-0706(05)01004-9,VERIFIED,Chapter 4 Forecast Combinations,1.0,,,
+Wang2023,10.1016/j.ijforecast.2022.11.005,VERIFIED_PUBLISHER,,,https://www.sciencedirect.com/science/article/pii/S0169207022001480,"Publisher title, DOI, authors and publication record checked; Crossref request rate-limited. Retain print/issue year.",HTTP Error 429: Too Many Requests
+White2000,10.1111/1468-0262.00152,VERIFIED,A Reality Check for Data Snooping,1.0,,,
+Wolpert1992,10.1016/S0893-6080(05)80023-1,VERIFIED,Stacked generalization,1.0,,,
+YahooFinance,,NO_DOI_IN_REFERENCE,,,,,

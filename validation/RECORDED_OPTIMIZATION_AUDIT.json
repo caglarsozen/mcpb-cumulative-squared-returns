@@ -1,0 +1,9 @@
+{
+  "recorded_origins": 36752,
+  "independent_nnls_checks": 360,
+  "max_scaled_KKT_residual": 9.550114461361056e-15,
+  "max_absolute_coefficient_difference": 1.5337731085196538e-13,
+  "all_recorded_partial_targets_mature": true,
+  "all_recorded_base_fits_available": true,
+  "scope": "Recorded Q,b and coefficients only; separate full-run and array audits cover fitting, targets and origin losses."
+}

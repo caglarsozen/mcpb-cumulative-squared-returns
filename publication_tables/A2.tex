@@ -1,0 +1,23 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Fixed regularization sensitivity at $H=30$.}
+\label{tab:regularization}
+\begin{tabular}{rlrrr}
+\toprule
+$\kappa$ & Window & \shortstack{Lower MSE vs.\\Ridge--EWMA} & \shortstack{Median PRE vs.\\Ridge--EWMA (\%)} & \shortstack{Lower MSE vs.\\EWMA} \\
+\midrule
+$10^{-6}$ & Expanding & 11/15 & +15.62 & 12/15 \\
+$10^{-6}$ & Rolling & 11/15 & +9.16 & 14/15 \\
+$10^{-4}$ & Expanding & 11/15 & +15.60 & 12/15 \\
+$10^{-4}$ & Rolling & 11/15 & +9.15 & 14/15 \\
+$10^{-2}$ & Expanding & 12/15 & +15.78 & 13/15 \\
+$10^{-2}$ & Rolling & 12/15 & +6.49 & 14/15 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} The main value is $10^{-4}$. The other values are retained as sensitivities and do not replace the main setting after inspection. Counts denote assets with lower MCPB path MSE than the stated comparator; PRE medians are across assets.
+\end{minipage}
+\end{table}

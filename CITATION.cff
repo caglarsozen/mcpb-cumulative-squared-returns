@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software and record the exact commit used."
+type: software
+title: "MCPB: replication materials for cumulative squared-return forecasts"
+authors:
+  - family-names: "Sözen"
+    given-names: "Çağlar"
+    orcid: "https://orcid.org/0000-0002-3732-5058"
+repository-code: "https://github.com/caglarsozen/mcpb-cumulative-squared-returns"
+url: "https://github.com/caglarsozen/mcpb-cumulative-squared-returns"
+license: MIT
+date-released: 2026-11-11
+keywords:
+  - forecast combination
+  - cumulative squared returns
+  - isotonic regression
+  - label maturity

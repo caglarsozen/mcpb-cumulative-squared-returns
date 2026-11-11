@@ -1,0 +1,33 @@
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.10}
+\caption{TV--persistence sensitivity relative to its ridge reference.}
+\label{tab:legacy_sensitivity}
+\begin{tabular}{lrr}
+\toprule
+Variant & Lower MSE & Median PRE (\%) \\
+\midrule
+Default & 9/15 & +6.72 \\
+Sample standard deviation & 9/15 & +5.18 \\
+Rousseeuw--Croux $Q_n$ & 9/15 & +6.72 \\
+Common scale across horizons & 9/15 & +1.24 \\
+Uniform horizon weights & 8/15 & +0.96 \\
+Inverse-horizon weights & 8/15 & +14.75 \\
+Equal TV weights & 9/15 & +6.26 \\
+Adaptive exponent 0.5 & 9/15 & +6.76 \\
+Offset $0.001$ & 9/15 & +6.80 \\
+Offset $0.1$ & 9/15 & +6.81 \\
+Segment penalty $0$ & 9/15 & +6.80 \\
+Segment penalty $0.01$ & 9/15 & +6.79 \\
+Segment penalty $0.03$ & 9/15 & +6.22 \\
+Segment penalty $0.05$ & 9/15 & +6.24 \\
+Huber parameter 1 & 9/15 & +6.72 \\
+Huber parameter 2 & 9/15 & +6.72 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} Each row summarizes 15 assets at $H=30$ under expanding estimation relative to the TV experiment's own ridge. The default uses quadratic increment loss, MAD normalization, horizon weights $h^{-1/2}$, adaptive exponent 1, offset 0.01, and segment penalty 0.02. Each alternative changes one setting and recalibrates the TV and persistence weights. Huber parameters refer to training-normalized increment units. These are descriptive results, not MCPB settings or adjusted significance findings.
+\end{minipage}
+\end{table}

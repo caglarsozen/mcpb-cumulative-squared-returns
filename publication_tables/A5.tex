@@ -1,0 +1,25 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Segment diagnostics for the TV experiment.}
+\label{tab:legacy_shape}
+\begin{tabular}{llrrrr}
+\toprule
+Asset & Variant & \shortstack{Mean\\segments} & \shortstack{Median\\segments} & \shortstack{90th percentile\\segments} & \shortstack{Mean\\fused adjacencies} \\
+\midrule
+BTC & Ridge & 29.73 & 30 & 30 & 0.27 \\
+BTC & Nonnegative TV & 14.31 & 15 & 19 & 15.69 \\
+BTC & Full TV + persistence & 8.44 & 8 & 13 & 21.56 \\
+BTC & Persistence & 1.00 & 1 & 1 & 29.00 \\
+ETH & Ridge & 29.86 & 30 & 30 & 0.14 \\
+ETH & Nonnegative TV & 17.76 & 18 & 23 & 12.24 \\
+ETH & Full TV + persistence & 7.41 & 7 & 12 & 22.59 \\
+ETH & Persistence & 1.00 & 1 & 1 & 29.00 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} A path has at most 30 segments and 29 adjacent increment differences. Let $g_h$ denote an increment divided by the training mean squared return. Adjacent increments are fused when $|g_{h+1}-g_h|\le10^{-5}+10^{-4}\max(|g_h|,|g_{h+1}|)$. The table contains moments and selected quantiles; per-origin histories are unavailable. These diagnostics concern the TV experiment, whose expert forecasts differ from MCPB's.
+\end{minipage}
+\end{table}
